@@ -30,7 +30,6 @@ public class LoginServlet extends HttpServlet {
 	 */
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
-		System.out.println("testing");
 		String user=request.getParameter("uname");
 		String pass=request.getParameter("password");
 		if(user.contentEquals("zensar") && pass.contentEquals("zensar")) {
